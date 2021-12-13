@@ -1,5 +1,5 @@
-# Game of Thrones NFT Collection 👋
+# Defeat Goku in Metaverse 👋
 
-https://game-of-thrones-nft.netlify.app/
+https://web3-goku.netlify.app/
 
-View Collection: https://rinkeby.rarible.com/collection/0x2Ab703e0b960698215AFd3Ec55c33A6CDcf31823
+View Collection: https://rinkeby.rarible.com/collection/0x4cad1f608df6f0d2d6e9f5e3fd73bad05f45a57a
