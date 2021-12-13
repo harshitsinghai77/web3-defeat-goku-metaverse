@@ -1,14 +1,13 @@
 .App {
   height: 100vh;
-  background-color: white;
+  background-color: #0d1116;
   overflow: scroll;
   text-align: center;
-  overflow-x: hidden;
 }
 
 .container {
   height: 100%;
-  background-color: white;
+  background-color: #0d1116;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,25 +21,16 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }
 
 .sub-text {
   font-size: 25px;
-  color: #0d1116;
+  color: white;
 }
 
-.sub-text-2 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  word-wrap: break-word;
-}
-
-.gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.content-container {
+  background-color: #a200d6;
 }
 
 .cta-button {
@@ -56,8 +46,27 @@
   color: white;
 }
 
+.connect-wallet-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+}
+
+.connect-wallet-container img {
+  padding-bottom: 20px;
+}
+
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  background-image: linear-gradient(
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
+    #b12a5b 100%
+  );
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
@@ -130,11 +139,4 @@
   100% {
     background-position: 0% 50%;
   }
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
 }
